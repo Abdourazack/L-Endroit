@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather';
+}
+
+.cc-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 1;
+}
+
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-color: var(--bs-teal);
+    color: greenyellow;
+
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Portugal.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1750px;
+}
