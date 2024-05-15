@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
 
-
+/*******************/
+/*Police d'ecriture*/
+/*******************/
 .redressed {
     font-family: 'Redressed', cursive;
 }
@@ -11,6 +13,9 @@
     font-family: 'Merriweather';
 }
 
+/**********/
+/*Nav-Bar*/
+/********/
 .cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
     font-family: 'Merriweather', serif;
@@ -30,6 +35,9 @@
 
 }
 
+/***********/
+/*banniere*/
+/*********/
 .banner {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Portugal.jpg) center center fixed no-repeat;
     background-size: cover;
@@ -46,4 +54,10 @@
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1200px;
+}
+
+@media screen and (max-width: 500px){
+    .col-media{
+        display: none;
+    }
 }
