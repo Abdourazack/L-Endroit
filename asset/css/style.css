@@ -60,4 +60,8 @@
     .col-media{
         display: none;
     }
+
+    .cc-menu{
+        height: 1000px;
+    }
 }

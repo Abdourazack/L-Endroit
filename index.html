@@ -1,190 +1,236 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>L'Endroit</title>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link href="asset/css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="asset/css/style.css">
-    </head>
-    <body>
-        <nav
-            class="cc-navbar navbar navbar-expand-lg position-fixed w-100 navbar-dark">
-            <div class="container-fluid">
-                <div class="col-lg-1 ">
-                    <a class="navbar-brand text-uppercase fw-bolder mx-2 py-3"
-                        href="#">L'Endroit</a>
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>L'Endroit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="asset/css/style.css">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+    </svg>
+  </head>
+  <body>
+    <nav
+      class="cc-navbar navbar navbar-expand-lg position-fixed w-100 navbar-dark">
+      <div class="container-fluid">
+        <div class="col-lg-1 ">
+          <a class="navbar-brand text-uppercase fw-bolder mx-2 py-3"
+            href="#">L'Endroit</a>
+        </div>
 
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item pe-4">
-                            <a class="nav-link active" aria-current="page"
-                                href="#">Acceuil</a>
-                        </li>
-                        <li class="nav-item pe-4">
-                            <a class="nav-link active" href="carte.html">Carte</a>
-                        </li>
-                        <li class="nav-item pe-4">
-                            <a class="nav-link active" href="#">Soirée à
-                                theme</a>
-                        </li>
-                    </ul>
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page"
+                href="#">Acceuil</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link active" href="carte.html">Carte</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link active" href="#">Soirée à
+                theme</a>
+            </li>
+          </ul>
 
-                </div>
-            </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
 
-        <section
-            class="banner d-flex justify-content-center align-items-center pt-5">
-            <div class="container my-5 py-5">
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6">
-                        <h1
-                            class="text-capitalize py-3 redressed banner-desc">Bienvenue
-                            à l'Endroit, où la joie , la convivialité et la
-                            bonne humeur sont au rendez-vous.<br>Bistrot
-                            familial au couleur du Portugal
-                            vous ouvrent ses portes <br>
-                            Tenue par Noel & Jason SUZAN
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section
+      class="banner d-flex justify-content-center align-items-center pt-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <h1
+              class="text-capitalize py-3 redressed banner-desc">Bienvenue
+              à l'Endroit, où la joie , la convivialité et la
+              bonne humeur sont au rendez-vous.<br>Bistrot
+              familial au couleur du Portugal
+              vous ouvrent ses portes <br>
+              Tenue par Noel & Jason SUZAN
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="available merriweather py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="card mb-3 border-0 rounded-0">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                                    <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                    </div>
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active" data-bs-interval="10000">
-                                        <img src="asset/img/img7.jpg" class="d-block w-100" alt="asset/img/img7.jpg">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
-                                      </div>
-                                      <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="asset/img/img11.jpg" class="d-block w-100" alt="asset/img/img7.jpg">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="asset/img/img15.jpg" class="d-block w-100" alt="asset/img/img7.jpg">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
-                                      </div>
-                                    
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
-                                    </button>
-                                  </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title">Découvrez nos specialités</h5>
-                                    <h6 class="card-title">Bacalhau</h6>
-                                    <p class="card-text">This is a wider card
-                                        with supporting text below as a natural
-                                        lead-in to additional content. This
-                                        content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-        <section class="cc-menu py-5 merriwheather ">
-            <div class="container">
-                <div class="row">
-                    <h1 class="text-center text-light merriweather">Nos Varietés</h1>
-                    <div class="card  bg-transparent text-center">
-                        <div class="card-header redressed fs-4">
-                          <ul class="nav nav-tabs justify-content-center card-header-tabs">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="true" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-light" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-light ">Disabled</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="card-body text-light redressed">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                      
-                </div>
-                <div class="row row-cols-1 row-cols-md-2 g-4 text-light">
-                    <div class="col">
-                      <div class="card ">
-                        <img src="asset/img/img6.jpg" class="card-img-top" alt="asset/img/img6.jpg">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col col-media d-sm-none d-md-block">
-                      <div class="card">
-                        <img src="asset/img/img18.jpg" class="card-img-top" alt="asset/img/img6.jpg">
-                        <div class="card-body ">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="asset/img/img9.jpg" class="card-img-top" alt="asset/img/img6.jpg">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col col-media d-sm-none d-md-block">
-                      <div class="card">
-                        <img src="asset/img/img12.jpg" class="card-img-top" alt="asset/img/img6.jpg">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
+    <section class="available merriweather py-5">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div id="carouselExampleDark"
+                  class="carousel carousel-dark slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0" class="active" aria-current="true"
+                      aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2" aria-label="Slide 3"></button>
                   </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="asset/img/img7.jpg" class="d-block w-100"
+                        alt="asset/img/img7.jpg">
+                      <div class="carousel-caption d-none d-md-block">
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="asset/img/img11.jpg" class="d-block w-100"
+                        alt="asset/img/img7.jpg">
+                      <div class="carousel-caption d-none d-md-block">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="asset/img/img15.jpg" class="d-block w-100"
+                        alt="asset/img/img7.jpg">
+                      <div class="carousel-caption d-none d-md-block">
+                      </div>
+                    </div>
+
+                  </div>
+                  <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Découvrez nos specialités</h5>
+                  <h6 class="card-title">Bacalhau</h6>
+                  <p class="card-text">This is a wider card
+                    with supporting text below as a natural
+                    lead-in to additional content. This
+                    content is a little bit longer.</p>
+                </div>
+              </div>
             </div>
-        </section>
-        <script src="asset/js/bootstrap.bundle.min.js"></script>
-    </body>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="cc-menu py-5 merriwheather ">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center text-light merriweather">Nos Spécialités</h1>
+          <div class="card  bg-transparent text-center">
+            <div class="card-header redressed fs-4">
+              <ul class="nav nav-tabs justify-content-center card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="true"
+                    href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light ">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body text-light redressed">
+              <h5 class="card-title">Specialité de la maison</h5>
+              <p class="card-text ">Découvrez quelques une de nos specialités</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-light">
+          <div class="col">
+            <div class="card ">
+              <img src="asset/img/img6.jpg" class="card-img-top"
+                alt="asset/img/img6.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Bacalhau</h5>
+                <p class="card-text">Chips de pommes de terre à la morue et au olive, accampagné de mini pain</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-media d-sm-none d-md-block">
+            <div class="card">
+              <img src="asset/img/img18.jpg" class="card-img-top"
+                alt="asset/img/img18.jpg">
+              <div class="card-body ">
+                <h5 class="card-title">Rissois de Camarao</h5>
+                <p class="card-text">Croquettes de morue à la portuguaise , accompagné d'une petite salade</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="asset/img/img9.jpg" class="card-img-top"
+                alt="asset/img/img9.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Caldo Verde</h5>
+                <p class="card-text">Soupe Portuguaise aux choux frisé</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-media d-sm-none d-md-block">
+            <div class="card">
+              <img src="asset/img/img12.jpg" class="card-img-top"
+                alt="asset/img/img6.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Patatas bravas</h5>
+                <p class="card-text">Pommes de terre coupées en cubes irréguliers et frites dans de l'huile d'olive avec quelques gousses d'ail.
+                  Avec son morceau de chorizo
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <ul class="nav justify-content-center ">
+            <li class="nav-item redressed">
+              <a class="nav-link fs-5" href="https://www.facebook.com/people/Lendroit-No%C3%ABl-Jason/pfbid033h69gZSbKZWQnEWCPzVsndkMDL2EQhncvk6LqykDo1NqTvqgBoWeqWjUG9HayN48l/" >
+                <i class="bi bi-facebook"></i></i>acebook</a>
+
+            </li>
+            <li class="nav-item redressed">
+              <a class="nav-link fs-5" href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TItPNjAuKigyYLRSNagwMU82NjK1NLFINUi1NEtLsjKoMDdLSk02SrM0T04xNbUwMPASylFPzUspys8sUcjNLy1OLsrPAwAMwxZY&q=l%27endroit+mouscron&oq=l%27endroit+mous&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxivARjHARiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhIIARAuGCcYrwEYxwEYgAQYigUyBggCEEUYOTIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogQyCggHEAAYgAQYogTSAQg1OTMwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" >
+                <i class="bi-google"></i>oogle</a>
+            </li>
+            <li class="nav-item redressed">
+              <a class="nav-link fs-5" href="https://www.google.com/maps/dir//Place+de+la+Gare+17,+7700+Mouscron/@50.7406785,3.1451417,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c325948e0e96fb:0x76bec2f97cd55800!2m2!1d3.2274977!2d50.7406803?entry=ttu">
+                <i class="bi bi-map-fill"></i>aps</a>
+            </li>
+          </ul>
+        </div>
+            <p class="text-center redressed fs-5" style="color: cornflowerblue;">Tous Droits Reservés-2024-L'Endroit</p>
+      </div>
+    </section>
+
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
