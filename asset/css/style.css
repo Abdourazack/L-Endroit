@@ -65,3 +65,31 @@
         height: 1000px;
     }
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  .menu-card {
+    margin: 20px 0;
+  }
+  .menu-header {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  .menu-item h5, .menu-item span {
+    margin: 0;
+  }
+  .section-title {
+    margin-top: 20px;
+    color: #495057;
+  }
