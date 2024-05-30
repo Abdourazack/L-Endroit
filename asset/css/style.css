@@ -122,6 +122,34 @@ body {
   /* Couleur du texte lors du survol */
 }
 
+.titre-carte1:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: cornflowerblue;
+  /* Couleur du texte lors du survol */
+}
+
+.titre-carte2:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: chocolate;
+  /* Couleur du texte lors du survol */
+}
+.titre-carte3:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: burlywood;
+  /* Couleur du texte lors du survol */
+}
+
+.titre-carte4:hover {
+  font-size: 25px;
+  text-decoration: underline;
+  color: cadetblue;
+  /* Couleur du texte lors du survol */
+}
+
+
 
 .text-carte:hover {
   font-size: 25px;
@@ -129,9 +157,35 @@ body {
   color: cadetblue;
   /* Couleur du texte lors du survol */
 }
+.text-carte1:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: cornflowerblue;
+  /* Couleur du texte lors du survol */
+}
+
+.text-carte2:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: chocolate;
+  /* Couleur du texte lors du survol */
+}
+
+.text-carte3:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: burlywood;
+  /* Couleur du texte lors du survol */
+}
+.text-carte4:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: cadetblue;
+  /* Couleur du texte lors du survol */
+}
 
 .texte-centrer:hover {
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: underline;
   color: cornflowerblue;
   /* Couleur du texte lors du survol */
