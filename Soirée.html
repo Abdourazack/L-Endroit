@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="asset/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="asset/css/style.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCItyRdzvD1HC3og85_6kE9PvhyIIaacBg"></script>
+        <title>L'Endroit</title>
+    </head>
+    <body>
+        <nav
+        class="cc-navbar navbar navbar-expand-lg  w-100 navbar-dark">
+        <div class="container-fluid">
+            <div class="col-lg-1 ">
+                <a class="navbar-brand text-uppercase fw-bolder mx-2 py-3"
+                    href="index.html">L'Endroit</a>
+            </div>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page"
+                            href="index.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active"
+                            href="carte.html">Carte</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" href="Soirée.html">Soirée à
+                            theme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+          
+    <main class="mt-5 pt-5">
+        <div class="container">
+            <!-- Section de Présentation -->
+            <section class="text-center mb-5">
+                <h2 class="titre mb-4 redressed">Rejoignez-nous pour une Soirée Spéciale Karaoké!</h2>
+                <p class="titre1 redressed">Venez chanter vos chansons préférées et passer une soirée inoubliable.</p>
+                <h5 class="titre2 merriweather">Pour reserver vos place contactez-nous à se numéro :</h5>
+                <button class="btn btn-outline-warning btn-lg mt-4">0496793695</button>
+            </section>
+
+            <!-- Section d'Informations -->
+            <section class="mb-5">
+                <div class="row">
+                    <div class="col-md-4 offset-lg-4 my-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title titre-carte">Date et Heure</h5>
+                                <p class="card-text text-carte">Samedi 22 Juin, 17:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section des Artistes Invités -->
+            <section class="mb-5">
+                <h2 class="text-center texte-centrer merriweather mb-5">Au Programme de la Soirée</h2>
+                <div class="row offset-lg-3 my-3">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="asset/img/pronostic-turquie-vs-portugal.jpg" class="card-img-top" alt="Artiste 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Diffusion Match</h5>
+                                <p class="card-text">Portugal vs Turquie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="asset/img/belgique-vs-roumanie.jpg" class="card-img-top" alt="Artiste 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Diffusion Match</h5>
+                                <p class="card-text">Belgique vs Roumanie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="asset/img/karaoke7.jpg" class="card-img-top" alt="Artiste 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Karaoké </h5>
+                                <p class="card-text">Avec les chanteurs du dimanche :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="col-md-4 offset-lg-4 mb-5" >
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title titre-carte">Lieu</h5>
+                        <p class="card-text">L'Endroit, Place de la Gare 17, 7700 Mouscron</p>
+                        <div id="map" style="height: 400px; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+        
+    </main>
+    
+    <section class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <ul class="nav justify-content-center ">
+              <li class="nav-item redressed">
+                <a class="nav-link fs-5" href="https://www.facebook.com/people/Lendroit-No%C3%ABl-Jason/pfbid033h69gZSbKZWQnEWCPzVsndkMDL2EQhncvk6LqykDo1NqTvqgBoWeqWjUG9HayN48l/" >
+                  <i class="bi bi-facebook"></i></i>acebook</a>
+  
+              </li>
+              <li class="nav-item redressed">
+                <a class="nav-link fs-5" href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TItPNjAuKigyYLRSNagwMU82NjK1NLFINUi1NEtLsjKoMDdLSk02SrM0T04xNbUwMPASylFPzUspys8sUcjNLy1OLsrPAwAMwxZY&q=l%27endroit+mouscron&oq=l%27endroit+mous&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxivARjHARiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhIIARAuGCcYrwEYxwEYgAQYigUyBggCEEUYOTIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogQyCggHEAAYgAQYogTSAQg1OTMwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" >
+                  <i class="bi-google"></i>oogle</a>
+              </li>
+              <li class="nav-item redressed">
+                <a class="nav-link fs-5" href="https://www.google.com/maps/dir//Place+de+la+Gare+17,+7700+Mouscron/@50.7406785,3.1451417,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c325948e0e96fb:0x76bec2f97cd55800!2m2!1d3.2274977!2d50.7406803?entry=ttu">
+                  <i class="bi bi-map-fill"></i>aps</a>
+              </li>
+            </ul>
+          </div>
+              <p class="text-center redressed fs-5" style="color: cornflowerblue;">Tous Droits Reservés-2024-L'Endroit</p>
+        </div>
+      </section>
+    
+    <script>
+        function initMap() {
+            // Les coordonnées de votre emplacement (latitude, longitude)
+            const location = { lat: 50.74071, lng: 3.22753 }; // L'Endroit, Place de la Gare 17, 7700 Mouscron
+
+            // Créer la carte et centrer sur l'emplacement
+            const map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: location
+            });
+
+            // Ajouter un marqueur à l'emplacement
+            const marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+        // Attendre que la page soit complètement chargée avant d'initialiser la carte
+        window.onload = initMap;
+    </script>
+
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script>
+            function toggleDescription(id) {
+              var desc = document.getElementById(id);
+              if (desc.style.display === "none") {
+                desc.style.display = "block";
+              } else {
+                desc.style.display = "none";
+              }
+            }
+          </script>
+          </body>
+          </html>
+          
+        <script src="asset/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

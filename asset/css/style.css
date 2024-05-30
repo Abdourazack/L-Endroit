@@ -6,32 +6,32 @@
 /*Police d'ecriture*/
 /*******************/
 .redressed {
-    font-family: 'Redressed', cursive;
+  font-family: 'Redressed', cursive;
 }
 
 .merriweather {
-    font-family: 'Merriweather';
+  font-family: 'Merriweather';
 }
 
 /**********/
 /*Nav-Bar*/
 /********/
 .cc-navbar {
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: 'Merriweather', serif;
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
-    z-index: 1;
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family: 'Merriweather', serif;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+  z-index: 1;
 }
 
 .cc-navbar .nav-link {
-    border-bottom: 1px solid transparent;
-    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom .4s ease-in-out, border-color .3s ease;
 }
 
 .cc-navbar .nav-link:hover {
-    padding-bottom: 20px;
-    border-color: var(--bs-teal);
-    color: greenyellow;
+  padding-bottom: 20px;
+  border-color: var(--bs-teal);
+  color: greenyellow;
 
 }
 
@@ -39,63 +39,114 @@
 /*banniere*/
 /*********/
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Portugal.jpg) center center fixed no-repeat;
-    background-size: cover;
-    height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Portugal.jpg) center center fixed no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
 .banner .banner-desc {
-    font-size: 48px;
-    font-weight: 400;
-    color: aliceblue;
+  font-size: 48px;
+  font-weight: 400;
+  color: aliceblue;
 }
 
 .cc-menu {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img.jpg) center center fixed no-repeat;
-    background-size: cover;
-    height: 1200px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img.jpg) center center fixed no-repeat;
+  background-size: cover;
+  height: 1200px;
 }
 
-@media screen and (max-width: 500px){
-    .col-media{
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  .col-media {
+    display: none;
+  }
 
-    .cc-menu{
-        height: 1000px;
-    }
+  .cc-menu {
+    height: 1000px;
+  }
 }
 
 
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .menu-card {
-      margin: 20px 0;
-    }
-    .menu-header {
-      background-color: #6c757d;
-      color: #fff;
-    }
-    .menu-item {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid #ddd;
-    }
-    .menu-item:last-child {
-      border-bottom: none;
-    }
-    .menu-item h5, .menu-item span {
-      margin: 0;
-    }
-    .section-title {
-      margin-top: 20px;
-      color: #495057;
-      border-bottom: 2px dashed #495057;
-    }
-    .description {
-      font-size: 0.9em;
-      color: #666;
-    }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.menu-card {
+  margin: 20px 0;
+}
+
+.menu-header {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item h5,
+.menu-item span {
+  margin: 0;
+}
+
+.section-title {
+  margin-top: 20px;
+  color: #495057;
+  border-bottom: 2px dashed #495057;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.titre:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  color: yellowgreen;
+  /* Couleur du texte lors du survol */
+}
+
+.titre-carte:hover {
+  font-size: 25px;
+  text-decoration: underline;
+  color: cadetblue;
+  /* Couleur du texte lors du survol */
+}
+
+
+.text-carte:hover {
+  font-size: 25px;
+  text-decoration: underline;
+  color: cadetblue;
+  /* Couleur du texte lors du survol */
+}
+
+.texte-centrer:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  color: cornflowerblue;
+  /* Couleur du texte lors du survol */
+}
+
+.titre1:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  color: dodgerblue;
+  /* Couleur du texte lors du survol */
+}
+
+.titre2:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  color: cadetblue;
+  /* Couleur du texte lors du survol */
+}
