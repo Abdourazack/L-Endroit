@@ -110,7 +110,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title titre-carte4">Lieu</h5>
                         <p class="card-text text-carte4 redressed ">La Passerelle, Place de la Gare 17, 7700 Mouscron</p>
-                        <div id="map" style="height: 400px; width: 100%;"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5049.795292013926!2d3.226711115276059!3d50.74038723399614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c325948e0e96fb%3A0x76bec2f97cd55800!2sLa%20passerelle!5e0!3m2!1sfr!2sbe!4v1717415283267!5m2!1sfr!2sbe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -119,9 +119,9 @@
     </main>
     
     <section class="footer py-5">
+
         <div class="container">
           <div class="row">
-            <h6 class="redressed justify-content-center">Nos Réseaux</h6>
             <ul class="nav justify-content-center ">
                 
               <li class="nav-item redressed">
@@ -142,35 +142,5 @@
               <p class="text-center redressed fs-5" style="color: cornflowerblue;">Tous Droits Reservés-2024-La Passerelle</p>
         </div>
       </section>
-    
-    <script>
-        function initMap() {
-            // Les coordonnées de votre emplacement (latitude, longitude)
-            const location = { lat: 50.74071, lng: 3.22753 }; // L'Endroit, Place de la Gare 17, 7700 Mouscron
-
-            // Créer la carte et centrer sur l'emplacement
-            const map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 12,
-                center: location
-            });
-
-            // Ajouter un marqueur à l'emplacement
-            const marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
-
-        // Attendre que la page soit complètement chargée avant d'initialiser la carte
-        window.onload = initMap;
-    </script>
-
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-          </body>
-          </html>
-          
-        <script src="asset/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
